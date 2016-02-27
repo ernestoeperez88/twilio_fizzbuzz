@@ -1,0 +1,14 @@
+Author  - Ernesto Ezequiel Perez  
+App	    - Twilio FizzBuzz  
+
+2/27/2016  
+
+Twilio FizzBzz is a Flask application that uses the twilio API  
+to play a game of FizBuzz over the phone. The application can  
+be reached by dialing (760) 993-3074. It will request a number  
+from the user and it will provide the result of FizzBuzz up  
+to the input number.
+
+This application is hosted in OpenShift Online and it can be  
+recreated by providing git@github.com:ernestoeperez88/twilio_fizzbuzz.git  
+when creating a new app in the OpenShift console.
