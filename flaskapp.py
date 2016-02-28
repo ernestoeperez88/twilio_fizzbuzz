@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/", methods=['POST'])
+@app.route("/dialing", methods=['POST'])
 def dial():
     phone_num = "+1" + request.form['pNumber']
     phonebuzz_num = "+17606711394"
